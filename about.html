@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shanti vidya mandir higher secondary school</title>
+    <link rel="stylesheet"  type= "text/css" href="svmmm.css">
+</head>
+
+<style>
+    /*------ slided frame-----*/
+#slider-frame{
+    overflow: hidden;
+    height: 500;
+    width: 1500;
+    
+}
+@-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left:2400px;}
+    50% {left: 2400px;}
+    60% {left:1200px;}
+    70% {left:1200px;}
+    80% {left:0px;}
+    90% {left:0px;}
+    100% {left:0px;}
+}
+#slider-frame .slide-image{
+    width: 4500;
+    height: 500;
+    margin: 0 0 0 -2400;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+.img-container{
+    height: 500;
+    width: 1500;
+    position: relative;
+    float: left;
+}
+
+/*---slide frame---*/
+</style>
+<body>
+    
+    <div id="header">
+        <center><h1 >Shanti Vidhya Mandir Higher Secondary School, Ruthiyai</h1>
+           <h2>(Approved by M.P. goverment)</h2></center>  
+         
+      </div>
+   <div id="nav-bar">
+       
+       <div id="menu-right">
+        
+        <ul id="menu">
+            <li><a href="svmv.html"> Home</a></li>
+            <li><a href="about.html"> About us</a></li>
+            <li><a href="a">Academic facilities</a></li>
+            <li><a href="a"> School gallery</a></li>
+            <LI><a href="a"> Content Us</a></LI>
+            <li><a href="career.html">Careers</a></li>
+    
+        </ul>
+
+        </div>
+
+       
+       
+       
+        <div id="slider-frame">
+            <div class="slide-image">
+                <div class="img-container">
+             <img src="svm1.png" alt="svm ">
+           </div>
+           <div class="img-container">
+               <img src="svm2.jpg" alt="svm">
+           </div>
+           <div class="img-container">
+               <img src="svm3.jpg" alt="">
+        </div>
+        <div class="img-container">
+            <img src="svm4.jpg" alt="">
+        </div>
+         </div>
+          </div>
+    </body>
+    </html>
